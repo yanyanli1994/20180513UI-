@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<suite name="UIAutoTest" parallel="false">
+    <test name="testDemo">
+        <!--<packages>-->
+        <!--<package name="com.testproj.Demo"/>-->
+        <!--</packages>-->
+        <classes>
+            <class name="Test20180330.TestDemo"></class>
+        </classes>
+    </test>
+</suite>
