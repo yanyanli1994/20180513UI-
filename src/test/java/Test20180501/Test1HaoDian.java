@@ -1,11 +1,10 @@
 package Test20180501;
 
+import ToolsClass.Wait;
 import org.junit.Assert;
 import org.junit.BeforeClass;
 import org.openqa.selenium.By;
-import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.firefox.FirefoxProfile;
 import org.testng.annotations.Test;

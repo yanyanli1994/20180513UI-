@@ -1,4 +1,4 @@
-package Test20180501;
+package ToolsClass;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
