@@ -34,7 +34,7 @@ public class Test1HaoDian {
             firefoxProfile.setPreference("extensions.firebug.currentVersion","1.8.4");
             ffwb = new FirefoxDriver(firefoxProfile);
 
-        } catch (IOException e) {
+        } catch (Exception e) {
             e.printStackTrace();
         }
     }

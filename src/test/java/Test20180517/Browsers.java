@@ -32,7 +32,7 @@ public class Browsers {
                     firefoxProfile.addExtension(firepath);
                     firefoxProfile.setPreference("webdriver.accept.untrusted.certs", true);
                     firefoxProfile.setPreference("extension.firebug.currentVersion", "1.12.1");
-                } catch (IOException e) {
+                } catch (Exception e) {
                     // TODO Auto-generated catch block
                     e.printStackTrace();
                 }

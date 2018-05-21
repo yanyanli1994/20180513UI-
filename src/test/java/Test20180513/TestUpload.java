@@ -14,8 +14,8 @@ public class TestUpload {
     public void upload(){
         FirefoxDriver ffwb = new FirefoxDriver();
         Wait wait = new Wait(ffwb);
-        du.what("sendbox").click();
-        du.what("attachment").sendKeys("c:\\terry.txt");
-        du.waitFor(5000);
+//        du.what("sendbox").click();
+//        du.what("attachment").sendKeys("c:\\terry.txt");
+//        du.waitFor(5000);
     }
 }

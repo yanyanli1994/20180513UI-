@@ -18,8 +18,8 @@ public class ChangeWindows {
         ffwb.findElement(By.xpath("//input[@name='q']")).sendKeys("selenium");
         ffwb.findElement(By.xpath("//input[@name='q']")).submit();
         ffwb.findElement(By.xpath("//a[contains(text(),'-Web Browser Automation')]")).click();
-        Switch switchW = new Switch(ffwb);
-        switchW.toSpecificWindow("Web Browser Automation");
+//        Switch switchW = new Switch(ffwb);
+//        switchW.toSpecificWindow("Web Browser Automation");
         ffwb.findElement(By.xpath("//li[@id='menu_documentation']/a[text()='Documentation']")).click();
     }
 }
