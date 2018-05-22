@@ -1,12 +1,34 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <suite name="FireflyAutomation">
 <test name="Practice1" preserve-order="true">
+    <groups>
+        <define name="submodule1"></define>
+        <define name="submodule2"></define>
+        <define name="submodule3"></define>
+
+        <define name="module1">
+            <include name="submodule1"/>
+            <include name="submodule2"/>
+        </define>
+
+        <define name="module2">
+            <include name="submodule2"/>
+            <include name="submodule3"/>
+        </define>
+
+        <run>
+            <include name="module1"></include>
+        </run>
+    </groups>
     <classes>
-        <class name="Test20180408.ProcticeOnTestNg">
-            <methods>
-                <include name="aFastTest"/>
-            </methods>
-        </class>
+        <class name="Test20180408.Practice3OnTestng" />
     </classes>
+    <!--<classes>-->
+        <!--<class name="Test20180408.ProcticeOnTestNg">-->
+            <!--<methods>-->
+                <!--<include name="aFastTest"/>-->
+            <!--</methods>-->
+        <!--</class>-->
+    <!--</classes>-->
 </test>
 </suite>
