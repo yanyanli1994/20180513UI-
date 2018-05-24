@@ -1,8 +1,8 @@
 package Test20180408;
 
-import Test20180408.AllBrowsers.*;
-import Test20180517.*;
+import Test20180408.AllBrowsers.Browsers;
 import Test20180517.BrowsersType;
+import org.openqa.selenium.WebDriver;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Parameters;
@@ -13,22 +13,24 @@ import org.testng.annotations.Test;
  * 结合testMutipleBrowseSuite.xml使用
  */
 public class MutipleBrowsers {
-//    @Parameters({"platform"})
-//    @BeforeMethod(groups = "browsers")
-//    public void inital(String platform){
-//        if (platform.equals("FF"))
-//            browser= new Browsers(BrowsersType.firefox);
-//        else if (platform.equals("chrome"))
-//            browser= new Browsers(BrowsersType.chrome);
-//        else
-//            browser= new Browsers(BrowsersType.ie);
-//            driver=browser.driver;
-//    }
+    private WebDriver driver = null;
+    private Browsers browser = null;
+    @Parameters({"platform"})
     @BeforeMethod(groups = "browsers")
-    public void inital(){
-        browser = new Test20180408.AllBrowsers.Browsers(BrowsersType.firefox);
-        driver = browser.driver;
+    public void inital(String platform){
+        if (platform.equals("FF"))
+            browser= new Browsers(BrowsersType.firefox);
+        else if (platform.equals("chrome"))
+            browser= new Browsers(BrowsersType.chrome);
+        else
+            browser= new Browsers(BrowsersType.ie);
+            driver=browser.driver;
     }
+//    @BeforeMethod(groups = "browsers")
+//    public void inital(){
+//        browser = new Test20180408.AllBrowsers.Browsers(BrowsersType.firefox);
+//        driver = browser.driver;
+//    }
     @Test(groups = "submodule1")
     public void submodule1(){
         driver.get("http://www.baidu.com");
