@@ -31,7 +31,7 @@
         </groups>
 
         <classes>
-            <class name="Test20180408.MutipleBrowsers"></class>
+            <class name="Test20180408_Protice2.MutipleBrowsers"></class>
         </classes>
     </test>
 </suite>

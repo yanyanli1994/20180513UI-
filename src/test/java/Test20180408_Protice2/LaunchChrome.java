@@ -1,4 +1,4 @@
-package Test20180408;
+package Test20180408_Protice2;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.remote.DesiredCapabilities;

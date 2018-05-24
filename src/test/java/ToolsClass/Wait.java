@@ -17,13 +17,17 @@ import org.openqa.selenium.support.ui.WebDriverWait;
  */
 public class Wait {
     private WebDriver driver;
-
+    private int timeout=10;
     public Wait(WebDriver driver){
         this.driver = driver;
-        PageFactory.initElements(driver,this);
+        //PageFactory.initElements(driver,this);
     }
     public void waitForElementPresent(String locator){
-        (new WebDriverWait(driver,10)).until(ExpectedConditions.elementToBeClickable(By.xpath(locator)));
+        try {
+            (new WebDriverWait(driver, timeout)).until(ExpectedConditions.elementToBeClickable(By.xpath(locator)));
+        }catch (Exception e){
+
+        }
     }
     public void waitForElementIsEnable(String locator){
         (new WebDriverWait(driver,10)).until(ExpectedConditions.elementToBeClickable(By.xpath(locator)));

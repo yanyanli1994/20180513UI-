@@ -1,4 +1,4 @@
-package Test20180408.AllBrowsers;
+package Test20180408_Protice2.AllBrowsers;
 
 /**
  * Created by Administrator on 2018-05-22.

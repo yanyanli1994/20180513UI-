@@ -1,4 +1,4 @@
-package Test20180408.AllBrowsers;
+package Test20180408_Protice2.AllBrowsers;
 import Test20180517.BrowsersType;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;

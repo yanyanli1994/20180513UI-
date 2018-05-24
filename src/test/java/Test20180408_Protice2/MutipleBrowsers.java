@@ -1,6 +1,6 @@
-package Test20180408;
+package Test20180408_Protice2;
 
-import Test20180408.AllBrowsers.Browsers;
+import Test20180408_Protice2.AllBrowsers.Browsers;
 import Test20180517.BrowsersType;
 import org.openqa.selenium.WebDriver;
 import org.testng.annotations.AfterMethod;

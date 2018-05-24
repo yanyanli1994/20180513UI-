@@ -1,4 +1,4 @@
-package Test20180408.AllBrowsers;
+package Test20180408_Protice2.AllBrowsers;
 import Test20180517.BrowsersType;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -10,8 +10,6 @@ import org.openqa.selenium.remote.DesiredCapabilities;
 import java.io.File;
 import java.io.IOException;
 import java.util.Arrays;
-
-import static Test20180517.BrowsersType.firefox;
 
 /**
  * Created by Administrator on 2018-05-22.

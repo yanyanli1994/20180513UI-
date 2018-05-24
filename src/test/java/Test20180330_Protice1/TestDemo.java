@@ -1,4 +1,4 @@
-package Test20180330;
+package Test20180330_Protice1;
 
 import org.testng.Assert;
 import org.testng.annotations.Test;

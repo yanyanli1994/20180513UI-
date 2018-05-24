@@ -5,7 +5,7 @@
         <!--<package name="com.testproj.Demo"/>-->
         <!--</packages>-->
         <classes>
-            <class name="Test20180330.TestDemo"></class>
+            <class name="Test20180330_Protice1.TestDemo"></class>
         </classes>
     </test>
 </suite>

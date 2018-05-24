@@ -1,4 +1,4 @@
-package Test20180408;
+package Test20180408_Protice2;
 
 import org.testng.annotations.Test;
 
