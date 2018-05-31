@@ -1,4 +1,4 @@
-package Test20180501;
+package Test20180501_Protice3;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
@@ -6,10 +6,6 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.Optional;
 import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
-
-import java.sql.Time;
-
-import static javax.swing.text.html.HTML.Tag.P;
 
 /**
  * Created by Administrator on 2018-05-03.

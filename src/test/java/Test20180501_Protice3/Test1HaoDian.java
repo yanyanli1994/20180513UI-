@@ -1,4 +1,4 @@
-package Test20180501;
+package Test20180501_Protice3;
 
 import ToolsClass.Wait;
 import org.junit.Assert;
@@ -10,7 +10,6 @@ import org.openqa.selenium.firefox.FirefoxProfile;
 import org.testng.annotations.Test;
 
 import java.io.File;
-import java.io.IOException;
 
 /**
  * Created by Administrator on 2018-05-06.

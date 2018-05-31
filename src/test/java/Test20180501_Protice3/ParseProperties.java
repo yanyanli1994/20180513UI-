@@ -1,7 +1,6 @@
-package Test20180501;
+package Test20180501_Protice3;
 
 import java.io.FileInputStream;
-import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.io.InputStream;
 import java.util.Properties;

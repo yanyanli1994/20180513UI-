@@ -14,6 +14,8 @@ import org.openqa.selenium.support.ui.WebDriverWait;
  基本这两个是常用的，也可以覆盖90%的等待问题 全局等待超时
  ffwb.manage().timeouts().implicitlyWait(3000, TimeUnit.SECONDS);//定义全局的等待超时间。
  我们可以将所有等待放到一个这个类我们叫做Wait中这样我们就可以直接使用了
+ sleep等待10s和网页不同步，不管数据出不出来都会等10s浪费效率
+ 而waitElementFor元素出来就可以下一步操作
  */
 public class Wait {
     private WebDriver driver;
