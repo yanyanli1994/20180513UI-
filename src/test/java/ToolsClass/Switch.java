@@ -6,6 +6,7 @@ import java.util.Set;
 
 /**
  * Created by Administrator on 2018-06-02.
+ * 浏览器打开多个窗口并进行切换工具类
  */
 public class Switch {
     private WebDriver driver;

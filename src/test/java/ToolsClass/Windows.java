@@ -9,7 +9,7 @@ import java.util.concurrent.TimeUnit;
 
 /**
  * Created by Administrator on 2018-05-13.
- * selenium 多窗口切换（windows)
+ * selenium 多窗口切换（windows)工具类
  */
 public class Windows {
     public static void main(String[] args) throws InterruptedException {

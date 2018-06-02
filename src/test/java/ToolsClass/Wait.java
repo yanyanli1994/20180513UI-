@@ -8,6 +8,7 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 
 /**
  * Created by Administrator on 2018-05-10.
+ * 元素等待时间工具类
  * 我们可能碰到什么情况了
  1）等待一个元素的加载
  2）等待一个元素有效
