@@ -1,4 +1,4 @@
-package Test20180517;
+package Test20180517_Protice5;
 
 import Test20180408_Protice2.TestData.ParseProperties;
 import ToolsClass.Wait;

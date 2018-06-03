@@ -1,7 +1,7 @@
 package Test20180408_Protice2;
 
 import Test20180408_Protice2.AllBrowsers.Browsers;
-import Test20180517.BrowsersType;
+import Test20180517_Protice5.BrowsersType;
 import org.openqa.selenium.WebDriver;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;

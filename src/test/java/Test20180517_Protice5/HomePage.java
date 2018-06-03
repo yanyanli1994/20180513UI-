@@ -1,4 +1,4 @@
-package Test20180517;
+package Test20180517_Protice5;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;

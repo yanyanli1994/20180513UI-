@@ -1,7 +1,7 @@
 package Test20180408_Protice2.TestData;
 
 import Test20180408_Protice2.AllBrowsers.Browsers;
-import Test20180517.BrowsersType;
+import Test20180517_Protice5.BrowsersType;
 import ToolsClass.Wait;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;

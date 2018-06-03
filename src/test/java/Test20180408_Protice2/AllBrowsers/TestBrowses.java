@@ -1,5 +1,5 @@
 package Test20180408_Protice2.AllBrowsers;
-import Test20180517.BrowsersType;
+import Test20180517_Protice5.BrowsersType;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.testng.Assert;

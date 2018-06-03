@@ -2,8 +2,8 @@ package Test20180501_Protice3.protice3;
 
 import Test20180408_Protice2.AllBrowsers.Browsers;
 import Test20180408_Protice2.TestData.ParseProperties;
-import Test20180517.BrowsersType;
-import Test20180517.Do;
+import Test20180517_Protice5.BrowsersType;
+import Test20180517_Protice5.Do;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.testng.annotations.BeforeClass;

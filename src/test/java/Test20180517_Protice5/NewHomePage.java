@@ -1,7 +1,6 @@
-package Test20180517;
+package Test20180517_Protice5;
 
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
 
 /**
  * Created by Administrator on 2018-05-20.
@@ -20,6 +19,6 @@ public class NewHomePage {
     }
 
     public void register(){
-        du.what(HomeLoc.reg).click();
+        du.what(HomeLoc .reg).click();
     }
 }
