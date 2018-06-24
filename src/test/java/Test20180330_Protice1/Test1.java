@@ -25,4 +25,3 @@ public class Test1 {
     }
 
 }
-//.//*[@id='rs']/table/tbody/tr[last()]/th[last()]/a

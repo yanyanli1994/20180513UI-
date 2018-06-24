@@ -1,6 +1,6 @@
 package Test20180408_Protice2;
 
-import org.junit.BeforeClass;
+import org.testng.annotations.BeforeClass;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
